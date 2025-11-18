@@ -22,7 +22,17 @@ La matriz asegura que todos los requisitos funcionales están cubiertos por caso
 Esta matriz es fundamental para asegurar la cobertura completa y facilita la auditoría de calidad durante el ciclo de vida del proyecto.
 
 
-| Requisito | Caso de Prueba | Evidencia | Bug |
-|-----------|----------------|-----------|------|
-| RF-001 Login | TC-001 | EV-001 | — |
-| RF-002 Validación credenciales | TC-002 | EV-002 | BUG-005 |
+| ID Requisito | Descripción Requisito       | ID Caso de Prueba | Descripción Caso de Prueba             | Estado    | Observaciones    |
+| ------------ | --------------------------- | ----------------- | -------------------------------------- | --------- | ---------------- |
+| RQ-001       | Login con usuario válido    | CP-01             | Verificar login exitoso con usuario    | Ejecutado | Sin incidencias  |
+| RQ-002       | Login con usuario bloqueado | CP-02             | Verificar mensaje de usuario bloqueado | Ejecutado | Mensaje correcto |
+| RQ-003       | Agregar producto al carrito | CP-07             | Validar adición correcta de producto   | Pendiente |                  |
+| RQ-004       | Realizar pago con tarjeta   | CP-10             | Validar proceso de checkout exitoso    | Ejecutado | Sin errores      |
+
+
+
+## Archivo Matriz de Trazabilidad
+
+Puedes descargar o abrir el archivo de la matriz de trazabilidad [aquí](./matriz-trazabilidad.xlsx).
+
+Este archivo contiene la relación entre requisitos y casos de prueba, mostrando la cobertura y el estado de cada uno.
