@@ -20,7 +20,7 @@ Verificar que las funcionalidades principales de Saucedemo operen correctamente,
 
 ## 3. Alcance
 
-### ✔ Incluye
+### Incluye
 - Validación de login (positivo y negativo).  
 - Validación del inventario de productos.  
 - Agregar y remover productos al carrito.  
@@ -29,7 +29,7 @@ Verificar que las funcionalidades principales de Saucedemo operen correctamente,
 - Navegación en el menú lateral.  
 - Ordenamiento de productos (A-Z, Z-A, precio).  
 
-### ✘ No incluye
+### No incluye
 - Pruebas de rendimiento (stress/load).  
 - Pruebas de seguridad avanzada.  
 - Automatización avanzada (cubierta en otra carpeta).  
