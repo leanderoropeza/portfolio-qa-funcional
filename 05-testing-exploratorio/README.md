@@ -1,14 +1,11 @@
-# Sesión de Testing Exploratorio – Login
+# Testing Exploratorio
 
-**Duración:** 30 minutos  
-**Charter:** Identificar errores en la experiencia de usuario y navegación en el login.  
-**Áreas cubiertas:**  
-- Validación de formularios  
-- Mensajes de error  
-- Flujo de usuario  
-- Rendimiento básico  
+Esta carpeta contiene los registros de las sesiones de testing exploratorio realizadas sobre la aplicación de demostración.
 
-**Hallazgos:**  
-- Error en tooltip al ingresar correo inválido  
-- Campo contraseña no valida espacios iniciales  
-- Botón “Recordarme” no persiste sesión  
+El testing exploratorio consiste en:
+
+- Explorar funcionalidades sin guión estricto.
+- Identificar problemas no contemplados en los casos de prueba formales.
+- Documentar hallazgos con severidad, prioridad y recomendaciones.
+
+Cada registro incluye la sesión de prueba, el área de la aplicación, la acción realizada, la observación encontrada, su severidad, prioridad y recomendaciones de mejora.
