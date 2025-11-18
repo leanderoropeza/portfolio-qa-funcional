@@ -173,7 +173,7 @@ La estrategia consistirá en:
 ---
 
 ## 14. Conclusión
-Este Plan de Pruebas establece un detallado para evaluar la calidad funcional del sitio Saucedemo.  
+Este Plan de Pruebas establece un enfoque detallado para evaluar la calidad funcional del sitio Saucedemo.  
 Refleja prácticas reales utilizadas en proyectos empresariales, demostrando un proceso completo de QA manual y exploratorio.
 
 
