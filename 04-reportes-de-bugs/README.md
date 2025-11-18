@@ -1,21 +1,16 @@
-# BUG-005 – Error en validación de credenciales
+# Reportes de Bugs
 
-**Severidad:** Alta  
-**Prioridad:** Media  
+Esta carpeta contiene ejemplos de reportes de bugs detectados durante la ejecución de casos de prueba del proyecto de demostración.
 
-**Descripción:**  
-El sistema permite intentar login con credenciales inválidas más de 10 veces sin bloquear el acceso.
+Los reportes muestran:
 
-**Pasos:**  
-1. Ir a /login  
-2. Ingresar usuario inválido  
-3. Repetir 10 veces  
-4. Validar respuesta del sistema  
+- ID único del bug
+- Caso de prueba asociado
+- Descripción detallada del bug
+- Severidad y prioridad
+- Estado actual (Abierto, Cerrado, En progreso)
+- Pasos para reproducir
+- Resultado esperado vs resultado observado
+- Observaciones adicionales
 
-**Resultado Esperado:**  
-Bloqueo de seguridad tras 5 intentos fallidos.  
-
-**Resultado Obtenido:**  
-Sistema permite intentos ilimitados.  
-
-**Evidencia:** V-002.png
+Estos archivos permiten demostrar la capacidad de documentación, seguimiento y comunicación de incidencias con equipos de desarrollo y QA.
