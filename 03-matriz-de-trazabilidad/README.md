@@ -1,3 +1,6 @@
-# Matriz de Trazabilidad
+# Matriz de trazabilidad
 
-Aquí se encuentra la matriz que relaciona los requisitos del proyecto con los casos de prueba correspondientes para asegurar la cobertura completa.
+| Requisito | Caso de Prueba | Evidencia | Bug |
+|-----------|----------------|-----------|------|
+| RF-001 Login | TC-001 | EV-001 | — |
+| RF-002 Validación credenciales | TC-002 | EV-002 | BUG-005 |
