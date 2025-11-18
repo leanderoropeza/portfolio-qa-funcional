@@ -1,3 +1,6 @@
-# Casos de Prueba
+# Casos de Prueba – Módulo Login
 
-En esta carpeta se almacenan los casos de prueba funcionales con sus pasos detallados, resultados esperados y estado.
+| ID | Título | Precondiciones | Pasos | Datos | Resultado Esperado | Estado |
+|----|---------|----------------|--------|---------|----------------------|----------|
+| TC-001 | Login válido | Usuario registrado | 1. Ir a /login 2. Ingresar usuario 3. Ingresar contraseña 4. Clic en “Login” | user@test.com / Pass123 | Acceso correcto, redirige a dashboard | Pendiente |
+| TC-002 | Login inválido | Usuario no válido | 1. Ir a /login 2. Ingresar usuario inválido | user@fake.com | Mostrar mensaje “Credenciales incorrectas” | Pendiente |
