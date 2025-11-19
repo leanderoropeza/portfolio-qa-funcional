@@ -78,7 +78,15 @@ Este portafolio tiene como propósito demostrar:
  **Madrid, España  
 
 ---
+##  Tabla de Contenidos  
+- [Plan de Pruebas](01-plan-de-pruebas)  
+- [Casos de Prueba](02-casos-de-prueba)  
+- [Matriz de Trazabilidad](03-matriz-de-trazabilidad)  
+- [Reportes de Bugs](04-reportes-de-bugs)  
+- [Testing Exploratorio](05-testing-exploratorio)  
+- [Evidencias](06-evidencias)
 
+---
 ##  Nota final
 
 Este portafolio está en constante mejora e incluye ejemplos prácticos basados en mis conocimientos y experiencia profesional.  
