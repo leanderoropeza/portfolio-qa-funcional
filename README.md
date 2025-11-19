@@ -1,6 +1,7 @@
 # Portafolio Profesional de QA Funcional 
 
-![Diagrama del Portafolio QA](![Diagrama del Portafolio QA](assets/diagrams/diagrama-portafolio.png)
+![Diagrama del Portafolio QA](assets/diagrams/diagrama-portafolio.png)
+
 
 ### Leander Oropeza – Quality Assurance Functional Specialist
 
