@@ -1,4 +1,8 @@
-# Portafolio Profesional de QA Funcional  
+# Portafolio Profesional de QA Funcional 
+
+![Diagrama del Portafolio QA](<img width="479" height="374" alt="diagrama" src="https://github.com/user-attachments/assets/6d53c2ff-7fc5-4400-8409-6224daf23597" />
+)
+
 ### Leander Oropeza – Quality Assurance Functional Specialist
 
 Bienvenido a mi portafolio profesional como **QA Funcional**, donde presento mi experiencia real diseñando, ejecutando y gestionando pruebas para aplicaciones web, móviles y sistemas bancarios.
