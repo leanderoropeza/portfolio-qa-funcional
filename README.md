@@ -87,45 +87,6 @@ Este portafolio tiene como propósito demostrar:
 - [Evidencias](06-evidencias)
 
 ---
-# Diagrama General del Portafolio QA – SauceDemo
-
-                     ┌──────────────────────────────┐
-                     │      Portfolio QA           │
-                     │   (Proyecto SauceDemo)        │
-                     └──────────────┬───────────────┘
-                                    │
-       ┌────────────────────────────┼────────────────────────────┐
-       │                            │                            │
-       ▼                            ▼                            ▼
-┌─────────────────┐        ┌─────────────────┐        ┌──────────────────────┐
-│ 01-plan-de-     │        │ 02-casos-de-    │        │ 03-matriz-de-        │
-│     pruebas     │        │     prueba      │        │   trazabilidad        │
-└───────┬─────────┘        └────────┬────────┘        └──────────┬──────────┘
-        │                             │                            │
-        │                             │                            │
-        ▼                             ▼                            ▼
-┌─────────────────┐        ┌───────────────────────┐     ┌─────────────────────┐
-│ Documento con   │        │ Casos de login,       │     │ Relación REQ → CP → │
-│ alcance,        │        │ compra, carrito,      │     │ Bugs                │
-│ objetivos,      │        │ filtros, logout       │     └─────────────────────┘
-│ criterios, etc. │        └───────────────────────┘
-└─────────────────┘
-
-       ┌────────────────────────────┼────────────────────────────┐
-       │                            │                            │
-       ▼                            ▼                            ▼
-┌──────────────────────┐   ┌────────────────────┐       ┌─────────────────────┐
-│ 04-reportes-de-bugs  │   │ 05-testing-        │       │ 06-evidencias        │
-│                      │   │     exploratorio   │       │                     │
-└──────────┬───────────┘   └──────────┬─────────┘       └──────────┬──────────┘
-           │                          │                             │
-           ▼                          ▼                             ▼
-┌──────────────────────┐   ┌──────────────────────┐     ┌──────────────────────────┐
-│ Bugs con ID, pasos,  │   │ Sesiones exploratorias│     │ Capturas, videos, logs,  │
-│ severidad, etc.      │   │ notas y heurísticas   │     │ organizadas por área     │
-└──────────────────────┘   └──────────────────────┘     └──────────────────────────┘
-
-
 ##  Nota final
 
 Este portafolio está en constante mejora e incluye ejemplos prácticos basados en mis conocimientos y experiencia profesional.  
