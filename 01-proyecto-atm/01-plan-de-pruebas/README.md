@@ -4,7 +4,7 @@ Esta carpeta contiene el **plan de pruebas completo** del proyecto ATM.
 
 ## Contenido
 
-- `test_plan.md`: Documento con alcance, objetivos, ambiente, precondiciones, riesgos, criterios de entrada/salida, matriz de priorización y calendario de ejecución.
+- `Plan-de-Pruebas.md`: Documento con alcance, objetivos, ambiente, precondiciones, riesgos, criterios de entrada/salida, matriz de priorización y calendario de ejecución.
 
 ## Recomendaciones
 
