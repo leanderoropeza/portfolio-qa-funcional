@@ -44,10 +44,4 @@ Es ideal para mostrar habilidades en:
 - MTTR defectos críticos: 2h  
 - Tiempo medio ejecución por ciclo: 1.5h
 
-## Cómo usar este proyecto
 
-1. Clonar o descargar este proyecto dentro de tu repositorio portfolio:  
-
-```bash
-git clone <tu-repo-url>
-cd portfolio-qa-funcional/07-proyecto-atm
