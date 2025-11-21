@@ -1,9 +1,5 @@
 # Portafolio Profesional de QA Funcional 
 
-![Diagrama](01-plan-de-pruebas/assets/diagrams/diagrama.png)
-
-
-
 ### Leander Oropeza – Quality Assurance Functional Specialist
 
 Bienvenido a mi portafolio profesional como **QA Funcional**, donde presento mi experiencia real diseñando, ejecutando y gestionando pruebas para aplicaciones web, móviles y sistemas bancarios.
