@@ -1,0 +1,24 @@
+# ATM-RET-003 – Retiro de importe personalizado (75€)
+
+**Objetivo:** Validar retiro con opción “Otro importe” y denominaciones correctas.
+
+**Precondiciones:** Cuenta con saldo ≥ 100€, tarjeta válida, ATM online y con billetes.
+
+**Pasos y Resultados Esperados:**
+1. Insertar tarjeta → ATM reconoce tarjeta y muestra pantalla de bienvenida.
+2. Seleccionar idioma → Interfaz cambia al idioma seleccionado.
+3. Ingresar PIN correcto → Sistema valida PIN y muestra menú principal.
+4. Seleccionar ‘Retirar efectivo’ → Muestra opción “Otro importe”.
+5. Elegir 75€ → Valida saldo y denominaciones disponibles.
+6. Confirmar operación → Mensaje “Procesando transacción”.
+7. Dispensar billetes → Se entregan 75€ correctamente por la ranura.
+8. Imprimir comprobante → Ticket con fecha, hora, importe y saldo actualizado.
+9. Expulsar tarjeta → Tarjeta expulsada y pantalla de agradecimiento.
+10. Verificar backend/logs → Registro de transacción con ID único y saldo actualizado (-75€).
+
+**Datos de prueba:**  
+- Tarjeta: 5678-1234-5678-1234  
+- PIN: 8765  
+- Saldo inicial: 200€
+
+**Severidad / Priority:** High
