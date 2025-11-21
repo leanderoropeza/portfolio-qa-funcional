@@ -1,0 +1,26 @@
+# ATM-RET-001 – Retiro exitoso de 100€
+
+**Objetivo:** Validar el flujo completo de retiro y la actualización contable del saldo.
+
+**Precondiciones:** Cuenta con saldo ≥ 300€, tarjeta válida, ATM online y con billetes.
+
+**Pasos y Resultados Esperados:**
+1. Insertar tarjeta → ATM reconoce tarjeta y muestra pantalla de bienvenida.
+2. Seleccionar idioma → Interfaz cambia al idioma seleccionado.
+3. Ingresar PIN correcto → Sistema valida PIN y muestra menú principal.
+4. Seleccionar ‘Retirar efectivo’ → Muestra selección de montos y opción “Otro importe”.
+5. Elegir 100€ → Valida saldo y denominaciones disponibles.
+6. Confirmar operación → Mensaje “Procesando transacción”.
+7. Dispensar billetes → Se entregan 100€ correctamente por la ranura.
+8. Imprimir comprobante → Ticket con fecha, hora, importe y saldo.
+9. Expulsar tarjeta → Tarjeta expulsada y pantalla de agradecimiento.
+10. Verificar backend/logs → Registro de transacción con ID único, saldo actualizado (-100€).
+
+**Datos de prueba:**  
+- Tarjeta: 1234-5678-9012-3456  
+- PIN: 4321  
+- Saldo inicial: 300€
+
+**Severidad / Priority:** High
+
+
