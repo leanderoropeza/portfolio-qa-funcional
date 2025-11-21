@@ -1,0 +1,29 @@
+Objetivo: Validar retiro de importe menor y actualización correcta de saldo.
+
+Precondiciones: Cuenta con saldo ≥ 100€, tarjeta válida, ATM online y con billetes.
+
+Pasos y Resultados Esperados:
+
+Insertar tarjeta → Pantalla de bienvenida.
+
+Seleccionar idioma → Interfaz cambia correctamente.
+
+Ingresar PIN correcto → Menú principal visible.
+
+Seleccionar ‘Retirar efectivo’ → Opciones de montos mostradas.
+
+Elegir 50€ → Saldo validado y denominaciones disponibles.
+
+Confirmar operación → Mensaje “Procesando transacción”.
+
+Dispensar billetes → 50€ entregados correctamente.
+
+Imprimir comprobante → Ticket con fecha, hora, importe y saldo actualizado.
+
+Expulsar tarjeta → Pantalla de agradecimiento.
+
+Verificar backend/logs → Saldo disminuido 50€, registro de transacción correcto.
+
+Datos de prueba: Tarjeta: 9876-5432-1098-7654, PIN: 1234, Saldo inicial: 150€
+
+Severidad / Priority: High
