@@ -1,29 +1,26 @@
-Objetivo: Validar retiro de importe menor y actualización correcta de saldo.
+# ATM-RET-002 – Retiro exitoso de 50€
 
-Precondiciones: Cuenta con saldo ≥ 100€, tarjeta válida, ATM online y con billetes.
+**Objetivo:** Validar retiro de importe menor y actualización correcta de saldo.
 
-Pasos y Resultados Esperados:
+**Precondiciones:** Cuenta con saldo ≥ 100€, tarjeta válida, ATM online y con billetes.
 
-Insertar tarjeta → Pantalla de bienvenida.
+**Pasos y Resultados Esperados:**
+1. Insertar tarjeta → ATM reconoce tarjeta y muestra pantalla de bienvenida.
+2. Seleccionar idioma → Interfaz cambia al idioma seleccionado.
+3. Ingresar PIN correcto → Sistema valida PIN y muestra menú principal.
+4. Seleccionar ‘Retirar efectivo’ → Muestra selección de montos.
+5. Elegir 50€ → Valida saldo y denominaciones disponibles.
+6. Confirmar operación → Mensaje “Procesando transacción”.
+7. Dispensar billetes → Se entregan 50€ correctamente por la ranura.
+8. Imprimir comprobante → Ticket con fecha, hora, importe y saldo actualizado.
+9. Expulsar tarjeta → Tarjeta expulsada y pantalla de agradecimiento.
+10. Verificar backend/logs → Saldo actualizado (-50€) y registro de transacción correcto.
 
-Seleccionar idioma → Interfaz cambia correctamente.
+**Datos de prueba:**  
+- Tarjeta: 9876-5432-1098-7654  
+- PIN: 1234  
+- Saldo inicial: 150€
 
-Ingresar PIN correcto → Menú principal visible.
+**Severidad / Priority:** High
 
-Seleccionar ‘Retirar efectivo’ → Opciones de montos mostradas.
 
-Elegir 50€ → Saldo validado y denominaciones disponibles.
-
-Confirmar operación → Mensaje “Procesando transacción”.
-
-Dispensar billetes → 50€ entregados correctamente.
-
-Imprimir comprobante → Ticket con fecha, hora, importe y saldo actualizado.
-
-Expulsar tarjeta → Pantalla de agradecimiento.
-
-Verificar backend/logs → Saldo disminuido 50€, registro de transacción correcto.
-
-Datos de prueba: Tarjeta: 9876-5432-1098-7654, PIN: 1234, Saldo inicial: 150€
-
-Severidad / Priority: High
