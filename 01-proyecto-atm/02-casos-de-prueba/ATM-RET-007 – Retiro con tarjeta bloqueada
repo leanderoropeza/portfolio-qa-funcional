@@ -1,0 +1,21 @@
+# ATM-RET-007 – Retiro con tarjeta bloqueada
+
+**Objetivo:** Validar que el ATM detecte una tarjeta bloqueada e impida cualquier operación.
+
+**Precondiciones:**  
+- Tarjeta bloqueada en el backend  
+- ATM online
+
+**Pasos y Resultados Esperados:**
+1. Insertar tarjeta → ATM detecta bloqueo.  
+2. Mostrar mensaje → “Tarjeta bloqueada. Contacte con su banco.”  
+3. Expulsar tarjeta automáticamente → Seguridad garantizada.
+
+**Datos de prueba:**  
+- Tarjeta: 4444-9999-3333-8888  
+- PIN: — (no solicitado)  
+- Estado tarjeta: Bloqueada
+
+**Severidad / Priority:** High
+
+
