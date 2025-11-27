@@ -1,0 +1,26 @@
+# ATM-RET-006 – Cancelación de retiro antes de confirmar
+
+**Objetivo:** Validar que el usuario pueda cancelar la operación sin afectar su saldo.
+
+**Precondiciones:**  
+- Cuenta con saldo ≥ 200€  
+- Tarjeta válida  
+- ATM online y con billetes disponibles
+
+**Pasos y Resultados Esperados:**
+1. Insertar tarjeta → Se muestra pantalla de bienvenida.  
+2. Ingresar PIN correcto → Acceso al menú principal.  
+3. Seleccionar ‘Retirar efectivo’ → Muestra selección de montos.  
+4. Elegir 100€ → Muestra pantalla de confirmación.  
+5. Seleccionar “Cancelar” → Regresa al menú principal sin cambios.  
+6. Expulsar tarjeta → Pantalla de agradecimiento.  
+7. Verificar backend/logs → No debe existir registro de transacción.
+
+**Datos de prueba:**  
+- Tarjeta: 5555-6666-7777-8888  
+- PIN: 9999  
+- Saldo inicial: 250€
+
+**Severidad / Priority:** Low
+
+
