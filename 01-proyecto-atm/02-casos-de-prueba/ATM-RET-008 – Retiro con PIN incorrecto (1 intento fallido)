@@ -1,0 +1,23 @@
+# ATM-RET-008 – Retiro con PIN incorrecto (1 intento fallido)
+
+**Objetivo:** Validar que el sistema detecte el PIN incorrecto y contabilice intentos fallidos.
+
+**Precondiciones:**  
+- Tarjeta válida  
+- Cuenta con saldo ≥ 100€  
+- ATM online
+
+**Pasos y Resultados Esperados:**
+1. Insertar tarjeta → Pantalla de PIN.  
+2. Ingresar PIN incorrecto → Mensaje “PIN incorrecto”.  
+3. Permitir reintentar → Se mantiene en pantalla de PIN.  
+4. Cancelar operación → Tarjeta expulsada.  
+
+**Datos de prueba:**  
+- Tarjeta: 1010-2020-3030-4040  
+- PIN ingresado: 0000  
+- PIN real: 1234  
+
+**Severidad / Priority:** Medium
+
+
