@@ -1,0 +1,27 @@
+# ATM-RET-005 – Retiro fallido por falta de denominaciones disponibles
+
+**Objetivo:** Validar que el ATM rechace la operación si no dispone de billetes en la denominación requerida.
+
+**Precondiciones:**  
+- Cuenta con saldo suficiente (≥ 200€)  
+- Tarjeta válida  
+- ATM online  
+- ATM sin billetes de 50€ (solo billetes de 20€ disponibles)
+
+**Pasos y Resultados Esperados:**
+1. Insertar tarjeta → ATM reconoce la tarjeta y muestra pantalla de bienvenida.  
+2. Ingresar PIN correcto → Se muestra el menú principal.  
+3. Seleccionar ‘Retirar efectivo’ → Muestra lista de montos.  
+4. Elegir 150€ → ATM valida denominaciones.  
+5. Denominaciones insuficientes → Mensaje “No hay billetes disponibles para este importe”.  
+6. Cancelar operación → Vuelve al menú principal.  
+7. Expulsar tarjeta → Pantalla de agradecimiento.
+
+**Datos de prueba:**  
+- Tarjeta: 9876-1111-2222-3333  
+- PIN: 4567  
+- Saldo inicial: 300€
+
+**Severidad / Priority:** Medium
+
+
