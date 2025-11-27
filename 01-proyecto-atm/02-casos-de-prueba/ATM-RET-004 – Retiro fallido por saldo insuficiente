@@ -1,0 +1,22 @@
+# ATM-RET-004 – Retiro fallido por saldo insuficiente
+
+**Objetivo:** Validar que el sistema bloquee el retiro si no hay saldo suficiente.
+
+**Precondiciones:** Cuenta con saldo < 50€, tarjeta válida, ATM online.
+
+**Pasos y Resultados Esperados:**
+1. Insertar tarjeta → ATM reconoce tarjeta y muestra pantalla de bienvenida.
+2. Ingresar PIN correcto → Sistema valida PIN y muestra menú principal.
+3. Seleccionar ‘Retirar efectivo’ → Muestra selección de montos.
+4. Elegir 100€ → Mensaje “Saldo insuficiente”, operación bloqueada.
+5. Cancelar operación → Volver al menú principal.
+6. Expulsar tarjeta → Pantalla de agradecimiento.
+
+**Datos de prueba:**  
+- Tarjeta: 2222-3333-4444-5555  
+- PIN: 1111  
+- Saldo inicial: 30€
+
+**Severidad / Priority:** High
+
+
