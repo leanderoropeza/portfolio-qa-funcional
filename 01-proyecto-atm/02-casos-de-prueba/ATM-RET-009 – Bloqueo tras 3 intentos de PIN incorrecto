@@ -1,0 +1,25 @@
+# ATM-RET-009 – Bloqueo tras 3 intentos de PIN incorrecto
+
+**Objetivo:** Validar bloqueo automático de tarjeta por seguridad después de 3 intentos fallidos.
+
+**Precondiciones:**  
+- Tarjeta válida  
+- PIN real registrado  
+- ATM online  
+- Tarjeta NO bloqueada inicialmente
+
+**Pasos y Resultados Esperados:**
+1. Insertar tarjeta → Solicitud de PIN.  
+2. Ingresar PIN incorrecto (1) → “PIN incorrecto”.  
+3. Ingresar PIN incorrecto (2) → “PIN incorrecto”.  
+4. Ingresar PIN incorrecto (3) → “Tarjeta bloqueada por seguridad”.  
+5. ATM retiene la tarjeta o la expulsa bloqueada (según normativa).  
+
+**Datos de prueba:**  
+- Tarjeta: 2222-2222-2222-2222  
+- PIN real: 5555  
+- PIN ingresado: 1111
+
+**Severidad / Priority:** High
+
+
