@@ -5,7 +5,7 @@ Esta carpeta contiene todos los **casos de prueba individuales**.
 ## Contenido
 
 - 02-casos-de-prueba.md por cada caso (ej.: `ATM-RET-001.md`).
-- Cada caso incluye: ID, objetivo, precondiciones, pasos y resultados esperados, datos de prueba, severidad y evidencia.
+- Cada caso incluye: ID, objetivo, precondiciones, pasos y resultados esperados, datos de prueba, severidad.
 
 ## Uso
 
