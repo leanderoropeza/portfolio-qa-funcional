@@ -12,7 +12,7 @@ Garantizar la calidad y fiabilidad de los procesos críticos en cajeros automát
 
 | Categoría | Herramientas / Metodologías |
 | :--- | :--- |
-| **Gestión de Pruebas** | 🟦 Jira Service Management, Zephyr, TestRail |
+| **Gestión de Pruebas** | 🟦 Jira Service Management, Rally, TestRail |
 | **Validación Técnica** | 🛰️ Postman (APIs), SQL (Consultas Core), Simuladores de Host |
 | **Estándares** | 💳 Normas PCI DSS, Protocolos EMV (Chip/Contactless) |
 | **Documentación** | 🥒 Gherkin (BDD), Markdown, IEEE 829 |
