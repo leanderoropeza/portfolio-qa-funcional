@@ -10,7 +10,7 @@ Este repositorio refleja mi capacidad para asegurar la calidad del software medi
 
 ##  Sobre mí
 
-Soy QA Funcional con más de **2 años de experiencia**, principalmente en el sector bancario, donde he validado flujos críticos como:
+Soy QA Funcional con más de **4 años de experiencia**, principalmente en el sector bancario, donde he validado flujos críticos como:
 
 - Transacciones financieras (ingresos y retiros)  
 - Cobro e impresión de cheques  
