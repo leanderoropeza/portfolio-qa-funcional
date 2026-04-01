@@ -1,34 +1,35 @@
-# 🚀 Framework de Automatización E2E | E-commerce Project
-> **Arquitectura de pruebas escalable diseñada para la validación de flujos críticos de negocio.**
+# 🚀 E-commerce Automation Framework | Selenium, Java & TestNG
 
-Este proyecto demuestra la implementación de un framework de automatización robusto. No es solo un script; es una estructura profesional preparada para integrarse en pipelines de **CI/CD**, garantizando la estabilidad de la plataforma en cada despliegue.
+> **Framework de automatización E2E diseñado bajo el patrón Page Object Model (POM) para la validación de flujos críticos de negocio.**
+
+Este proyecto demuestra una arquitectura de nivel **Senior**, enfocada en la resiliencia de las pruebas frente a comportamientos asíncronos del navegador y la mantenibilidad del código.
 
 ---
 
 ## 🛠️ Stack Tecnológico & Patrones
-*   **Lenguaje:** Java (JDK 11+)
-*   **Framework de Automatización:** Selenium WebDriver
-*   **Gestor de Dependencias:** Maven
-*   **Patrón de Diseño:** **Page Object Model (POM)** – *Optimiza la mantenibilidad y reutilización de código.*
-*   **Testing Framework:** TestNG / JUnit
-*   **Reportes:** ExtentReports para visibilidad de resultados.
+*   **Lenguaje:** Java 11+
+*   **Automatización:** Selenium WebDriver 4.x
+*   **Patrón de Diseño:** **Page Object Model (POM)** con encapsulamiento de esperas explícitas.
+*   **Gestión de Pruebas:** TestNG (Suites y Assertions).
+*   **Configuración:** Archivos `.properties` para manejo de entornos.
+*   **Utilidades:** Manejo de esperas visuales personalizadas para demostraciones.
 
 ---
 
-## 🔍 Alcance de las Pruebas (Test Scenarios)
-Se ha automatizado el **Happy Path** y flujos negativos del ciclo de compra:
-1.  **Autenticación:** Validación de diferentes perfiles de usuario y manejo de errores de login.
-2.  **Gestión de Inventario:** Selección dinámica de productos y validación de persistencia en el carrito.
-3.  **Checkout E2E:** Flujo completo desde la dirección de envío hasta la confirmación final de la orden.
-4.  **Validaciones de UI:** Verificación de elementos críticos (precios, botones, imágenes) para asegurar la experiencia de usuario.
+## 🏗️ Aspectos Destacados de la Arquitectura
+*   **BaseTest:** Clase padre que centraliza la configuración del Driver y el manejo de `ChromeOptions` para evitar bloqueos de seguridad.
+*   **Sincronización Avanzada:** Implementación de `WebDriverWait` dentro de las clases de página para eliminar "flaky tests".
+*   **Suite de Regresión:** Orquestación mediante `testng.xml` para ejecución en lote de toda la batería de pruebas.
 
 ---
 
-## 🏗️ Valor Agregado como QA
-Al aplicar mi experiencia en **sistemas críticos**, este framework incluye:
-*   **Esperas Explícitas (Explicit Waits):** Manejo eficiente de la asincronía del navegador para evitar "flaky tests".
-*   **Manejo de Excepciones:** Captura de errores robusta para generar reportes claros y accionables.
-*   **Separación de Responsabilidades:** El código de prueba es totalmente independiente de la lógica de los localizadores de la página.
+## 🔍 Cobertura de Pruebas
+1.  **Autenticación:** Validaciones de Login Exitoso y Flujos Negativos (credenciales inválidas).
+2.  **Gestión de Inventario:** Selección de productos y validación de persistencia en el badge del carrito.
+3.  **Checkout E2E:** Flujo completo desde la autenticación hasta la "Thank You Page" (confirmación de orden).
 
 ---
-> **Nota:** Este proyecto es una demostración técnica de mi capacidad para automatizar plataformas web modernas bajo estándares profesionales de la industria IT.
+
+## 🚀 Cómo Ejecutar
+1. Clonar el repositorio.
+2. Ejecutar `mvn test` desde la terminal o correr el archivo `testng.xml` en tu IDE.
