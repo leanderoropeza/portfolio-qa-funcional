@@ -1,31 +1,32 @@
 # 🧪 API Testing & Validation | Core Services
-> **Validación técnica de capas de servicios REST para asegurar la integridad de datos y lógica de negocio.**
+> **Validación técnica de capas de servicios para asegurar la integridad de datos y lógica de negocio.**
 
-Este proyecto demuestra mi capacidad para testear el "corazón" de las aplicaciones (Backend) antes de que lleguen a la interfaz. Me enfoco en la estabilidad de las respuestas y la seguridad de los flujos de datos.
+Este proyecto demuestra mi capacidad para testear el "corazón" de las aplicaciones (Backend) antes de que lleguen a la interfaz. Me enfoco en la estabilidad de las respuestas, la seguridad de los flujos de datos y la validación de reglas críticas de negocio.
 
 ---
 
 ## 🛠️ Herramientas & Técnicas
-*   **Gestión de Pruebas:** Postman (Collections & Environments).
-*   **Automatización:** Newman (CLI para ejecución en CI/CD).
-*   **Validación:** JavaScript (Scripts de test embebidos).
-*   **Tipos de Prueba:** Smoke Tests, Pruebas de Contrato y Flujos Encadenados.
+*   **Lenguaje de Automatización:** Java 11/21 (Strongly Typed Logic).
+*   **Motor de Pruebas:** TestNG (Assertions & Test Hierarchy).
+*   **Técnica de Aislamiento:** **Mocking & Contract Testing** (Garantiza ejecución sin dependencias de red externa).
+*   **Tipos de Prueba:** Smoke Tests de API, Pruebas de Contrato y Validación de Casos de Borde (Edge Cases).
 
 ---
 
-## 🔍 Escenarios de Prueba Automatizados
-1.  **Validación de Status Codes:** Asegurar respuestas correctas (200 OK, 201 Created, 400 Bad Request, etc.).
-2.  **Integridad del JSON:** Verificación de esquemas para garantizar que el servidor devuelva los campos requeridos.
-3.  **Encadenamiento de Requests:** Uso de variables de entorno para pasar datos de un endpoint a otro (ej: Tomar el Token de Login para consultar el Perfil).
-4.  **Pruebas de Performance Básicas:** Monitoreo de tiempos de respuesta bajo umbrales específicos.
+## 🔍 Escenarios de Prueba Automatizados (Implementados en Java)
+1.  **Integridad del JSON (Contract Testing):** Verificación de esquemas para garantizar que el servidor devuelva los campos requeridos (ID, Title, Status).
+2.  **Validación de Reglas de Negocio (Core Business):** 
+    *   **Control de Stock:** Detección de productos agotados (`stock: 0`) para prevenir errores en el flujo de compra.
+    *   **Sanidad Financiera:** Identificación de errores críticos como **precios negativos** o nulos en el catálogo.
+3.  **Resiliencia de Tests:** Implementación de respuestas simuladas para mantener la suite de pruebas activa incluso ante inestabilidad de servidores externos (Error 503/404).
 
 ---
 
 ## 🏗️ Valor Agregado como QA (API-First)
-Aplicando el rigor de **entornos bancarios**, mis colecciones de Postman incluyen:
-*   **Tests de Regresión Automáticos:** Scripts que validan el cuerpo de la respuesta en milisegundos.
-*   **Documentación Dinámica:** Colecciones organizadas que sirven como referencia técnica para el equipo de desarrollo.
-*   **Manejo de Ambientes:** Configuración fácil de intercambiar entre QA, Staging y Producción.
+Aplicando el rigor de **entornos bancarios**, mi suite de pruebas en la carpeta `com.ecommerce.api` incluye:
+*   **Tests de Regresión de Alta Velocidad:** Scripts que validan la lógica del servidor en milisegundos sin latencia de red.
+*   **Detección Preventiva de Bugs:** Identificación de errores de carga en base de datos antes de que afecten la experiencia del usuario.
+*   **Arquitectura Desacoplada:** Pruebas que aseguran que el contrato de comunicación entre sistemas no se rompa tras un despliegue.
 
 ---
-> **Nota:** Este apartado resalta mi competencia técnica en el testing de servicios, una habilidad crítica para asegurar la comunicación entre sistemas complejos.
+> **Nota:** Este apartado resalta mi competencia técnica en el testing de servicios usando **Java**, una habilidad crítica para asegurar la comunicación robusta entre sistemas complejos.
