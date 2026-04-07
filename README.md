@@ -35,7 +35,7 @@ Con más de **4 años de experiencia** garantizando la calidad en entornos de al
 ### 🟡 [03. Validación de APIs y Core Business](./03-API-Testing-Postman)
 *   **El Reto:** Asegurar la integridad de datos entre el frontend y el servidor.
 *   **Solución:** Automatización de aserciones funcionales y validación de contratos (JSON Schema) con **Postman**.
-*   **Evidencia:**[Ver resultados de ejecución aquí](./03-API-Testing-Postman/evidences/evidencia.jpg.jpg)
+*   **Evidencia:**
 
 
 ---
