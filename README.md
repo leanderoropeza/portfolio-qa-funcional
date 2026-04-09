@@ -6,10 +6,6 @@ Con más de **4 años de experiencia** garantizando la calidad en entornos de al
 ---
 
 ## 🛠️ Mi Stack de Calidad
-![Java](https://shields.io)
-![Selenium](https://shields.io)
-![Postman](https://shields.io)
-![Jira](https://shields.io)
 
 
 | Área | Tecnologías & Metodologías |
